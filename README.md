@@ -1,5 +1,5 @@
 # matlab-chicago-crime-rate-analysis
-A course project that analyzes **11 years of Chicago crime data (2013–2023)** to uncover temporal and spatial patterns and to **forecast 2024**. Completed for *Intro to Computers & Programming* (final grade: **A**).
+A course project in my freshman year that analyzes **11 years of Chicago crime data (2013–2023)** to uncover temporal and spatial patterns and to **forecast 2024**. Completed for *Intro to Computers & Programming* (final grade: **A**).
 
 ---
 
