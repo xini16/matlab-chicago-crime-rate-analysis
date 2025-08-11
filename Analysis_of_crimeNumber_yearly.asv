@@ -1,0 +1,18 @@
+initial=readtable('Crimes_2013_to_2023.csv','Delimiter',',');
+% sorted=sortrows(initial,'Year');
+counts=groupcounts(initial,'Year');
+% counts2=groupcounts(sorted,'Year');
+x=counts.Year;
+y=counts.GroupCount;
+figure;
+bar(x,y);
+title('The number of reported crimes between 2013 and 2023','FontSize',20);
+xlabel('Year','FontSize',20);
+ylabel('Number of reported crimes','FontSize',20);
+legend('Number of Crimes','Location','northwest');
+grid on;
+formatSpec = "Created %s";
+tNow = datestr(now);
+dim = [.13,0,.07,.07];
+str = {sprintf(formatSpec, tNow)};
+annotation('textbox',dim,'String',str,'FitBoxToText','on');
